@@ -30,11 +30,12 @@ article {
     max-width: 400px;
 }
 
-img {
+.profile-image {
     display: block;
-    margin-bottom: 10px;
     width: 100%;
+    max-width: 400px;
     height: auto;
+    margin: 12px 0;
 }
 
 footer {
@@ -42,18 +43,4 @@ footer {
     padding: 12px;
     background: #f2f2f2;
     text-align: center;
-}
-
-.card-link {
-    display: block;
-    color: inherit;
-    text-decoration: none;
-}
-
-article:hover {
-    cursor: pointer;
-}
-
-article:hover .card-link {
-    text-decoration: underline;
 }
